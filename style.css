@@ -1,0 +1,8 @@
+#carouselExampleCaptions {
+    max-height: 100vh;
+}
+
+#carouselExampleCaptions img {
+    width: 100%; 
+    height: auto;
+} 
