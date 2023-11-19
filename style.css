@@ -1,8 +1,23 @@
-#carouselExampleCaptions {
+#captions {
     max-height: 100vh;
 }
 
-#carouselExampleCaptions img {
+#captions img {
     width: 100%; 
     height: auto;
 } 
+
+ul > li:hover { 
+    background-color: #063985;; 
+}
+
+.plans-container {
+    text-align: center;
+}
+
+h3 ~ p {
+    text-align: center;
+}
+
+
+
