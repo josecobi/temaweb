@@ -9,7 +9,7 @@
     <title>Page 3</title>
 </head>
 <body>
-<header>
+  <header>
     <nav class="navbar navbar-expand-lg bg-primary">
         <div class="container-fluid">
           <a class="navbar-brand text-white" href="#">Navbar</a>
@@ -21,9 +21,7 @@
               <li class="nav-item">
                 <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="page2.html">Page 2</a>
-              </li>
+             
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   More
@@ -35,6 +33,14 @@
                 </ul>
               </li>
             </ul>
+            <ul class="navbar-nav  mb-2 mb-lg-0" style="margin-right: 1rem;">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="page2.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="page3.html">Register</a>
+              </li>
+          </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-success" type="submit">Search</button>
@@ -54,7 +60,7 @@
               <form>
                   <div class="mb-3">
                       <label class="small mb-1" for="Username">Username</label>
-                      <input class="form-control" id="Username" type="text" placeholder="username" value="username">
+                      <input class="form-control" id="Username" type="text" placeholder="username" value="username" required>
                   </div>
                   <div class="row gx-3 mb-3">
                       <div class="col-md-6">
@@ -66,31 +72,22 @@
                           <input class="form-control" id="LastName" type="text" placeholder="last name" value="Vargas">
                       </div>
                   </div>
-                  <div class="row gx-3 mb-3">
-                      
-
-                      
-                  </div>
                 
-                  <div class="row gx-3 mb-3">
-                   
+                  <div class="row gx-3 mb-3">                
 
                       <div class="col-md-6">
                         <label class="small mb-1" for="EmailAddress">Email address</label>
-                        <input class="form-control required" id="EmailAddress" type="email" placeholder="email" value="name@gmail.com" required>
-
+                        <input class="form-control" id="EmailAddress" type="email" placeholder="email" value="name@gmail.com" required>
                       </div>
 
-                      <div class="row gx-3 mb-3">
-
-                          
+                      <div class="row gx-3 mb-3">                          
                           <div class="col-md-6">
                               <label class="small mb-1" for="dateOfBirth">Date of Birth</label>
                               <input class="form-control" id="dateOfBirth" type="text" name="dateOfBirth" placeholder="Date of birth" value="24/06/1985">
                           </div>
                       </div>
                       <div class="row justify-content-center">
-                        <button class="btn btn-primary col-4" type="button">Save</button>
+                        <button class="btn btn-primary col-4" type="submit">Save</button>
                       </div>
                   </div>
               </form>
