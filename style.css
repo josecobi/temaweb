@@ -9,7 +9,10 @@
 
 ul > li:hover { 
     background-color: #ffc107;
-    color: #063985; 
+ 
+}
+.nav-item:hover .nav-link {
+    color: black !important;
 }
 
 .container-plans {
@@ -21,7 +24,7 @@ h3 ~ p {
 }
 
 .cheese-gif {
-    animation: slideDown 0.6s ease-out;
+    animation: slideDown 1.5s ease-out;
 }
 
 @keyframes slideDown {
@@ -32,5 +35,17 @@ h3 ~ p {
         transform: translateY(0);
     }
 }
+
+.so-cheesy-gif {
+    transition-duration: 1s;
+}
+
+.so-cheesy-gif:hover {
+    transform: rotate(360deg);
+}
+
+
+
+
 
 

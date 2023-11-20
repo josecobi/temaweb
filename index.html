@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <title>TemaWeb</title>
 </head>
-<body>
+<body class="bg-secondary-subtle">
     <header>
         <nav class="navbar navbar-expand-lg bg-primary">
             <div class="container-fluid">
@@ -19,11 +19,11 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
+                  <li  class="nav-item rounded">
                     <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
                   </li>
                  
-                  <li class="nav-item dropdown">
+                  <li class="nav-item dropdown rounded">
                     <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       More
                     </a>
@@ -35,16 +35,16 @@
                   </li>
                 </ul>
                 <ul class="navbar-nav  mb-2 mb-lg-0" style="margin-right: 1rem;">
-                  <li class="nav-item">
+                  <li class="nav-item rounded">
                     <a class="nav-link text-white" href="page2.html">Login</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item rounded">
                     <a class="nav-link text-white" href="page3.html">Register</a>
                   </li>
               </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-success" type="submit">Search</button>
+                  <button class="btn btn-warning" type="submit">Search</button>
                 </form>
               </div>
             </div>
@@ -102,16 +102,18 @@
     </div>
     <div class="container-plans">
     <div class="row justify-content-center pt-5">
-      <div class="col-2 plans-container" >
-        <h3>Plans</h3>
-        <p>Chose your plan</p>
+      <div class="col plans-container" >
+          <img class="img img-fluid so-cheesy-gif" src="https://media.tenor.com/yvfZ1LaUu4kAAAAj/cheese-food.gif">
+        
+          <h3>Plans</h3>
+          <p>We adapt to your needs</p>
       </div>
     </div>
     <div class="row justify-content-center">
       <div class="col-10">
-        <table class="table table-hover rounded" style="text-align: center;">
+        <table class="table table-secondary" style="text-align: center;">
           <thead>
-            <tr class="table-primary table-stripped">
+            <tr class="table-primary">
               <th scope="col">Free</th>
               <th scope="col">Pro</th>
               <th scope="col">Pro+</th>
@@ -119,25 +121,25 @@
             </tr>
           </thead>
           <tbody>
-            <tr class="table-hover">
+            <tr >
               <td>Feature 1</td>
               <td>Feature 1</td>
               <td>Feature 1</td>
             </tr>
-            <tr class="table-primary table-hover">
+            <tr>
               <td><del>Feature 2</del></td>
               <td>Feature 2</td>
               <td>Feature 2</td>
             </tr>
-            <tr class="table-hover">
+            <tr>
               <td><del>Feature 3</del></td>
               <td><del>Feature 3</del></td>
               <td>Feature 3</td>
             </tr>
-            <tr class="table-hover">
+            <tr>
               <td><button type="button" class="btn btn-outline-success">Join</button></td>
               <td><button type="button" class="btn btn-success">Join the Pro Club</button></td>
-              <td><button type="button" class="btn btn-success">Join the Pro+ Club</button></td>
+              <td><button type="button" class="btn btn-warning">Join the Pro+ Club</button></td>
             </tr>
           </tbody>
         </table>
