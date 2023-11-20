@@ -8,10 +8,11 @@
 } 
 
 ul > li:hover { 
-    background-color: #063985;; 
+    background-color: #ffc107;
+    color: #063985; 
 }
 
-.plans-container {
+.container-plans {
     text-align: center;
 }
 
@@ -19,5 +20,17 @@ h3 ~ p {
     text-align: center;
 }
 
+.cheese-gif {
+    animation: slideDown 0.6s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
 
 
