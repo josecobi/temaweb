@@ -41,6 +41,18 @@ cd cheesebar
 
 Open the index.html file in your preferred web browser to explore the CheeseBar website. Navigate to different pages using the menu options.
 
+## Screenshots
+![Screenshot 2023-11-20 195848](https://github.com/josecobi/temaweb/assets/58313777/a41cf77d-1190-4700-b18e-5401a504093c)
+
+![Screenshot 2023-11-20 195828](https://github.com/josecobi/temaweb/assets/58313777/25f94c24-e0e9-4c2a-96bb-eb777a278362)
+
+
+![Screenshot 2023-11-20 195919](https://github.com/josecobi/temaweb/assets/58313777/9433dc38-e3c6-479e-bb82-fc0479c98c80)
+
+![Screenshot 2023-11-20 195943](https://github.com/josecobi/temaweb/assets/58313777/77ad9eca-177f-4d0b-a5fa-498ad9977eaf)
+
+![Screenshot 2023-11-20 200020](https://github.com/josecobi/temaweb/assets/58313777/cd7873ae-ed64-4d1c-9221-75edd149a38a)
+
 ## Credits
 
 Carousel images obtained from unsplash.com:
